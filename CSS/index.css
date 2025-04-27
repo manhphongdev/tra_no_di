@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to bottom, #1a1a1a, #b91c1c);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.neon-text {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#noButton {
+    transition: all 0.3s ease;
+}
